@@ -39,7 +39,7 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 
 ## Installation
-No special installation is necessary to view this project.
+Required: Node / Inquirer / MYSQL2
 
 ## Usage 
 This project is intended for education purposes only.
