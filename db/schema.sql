@@ -1,3 +1,9 @@
+-- Create the employee_tracker_db database
+CREATE DATABASE IF NOT EXISTS employee_tracker_db;
+
+-- Switch to the employee_tracker_db database
+USE employee_tracker_db;
+
 -- Creating the 'departments' table
 CREATE TABLE departments (
   id INT AUTO_INCREMENT PRIMARY KEY,
