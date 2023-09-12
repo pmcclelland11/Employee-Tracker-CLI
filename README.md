@@ -1,6 +1,6 @@
 # UC Berkeley Coding Bootcamp - Module 12 Challenge
 ## Employee-Tracker-CLI
-ADD DESCRIPTION HERE
+This employee tracker application is a CLI designed for business owners to efficiently organize and manage their company's departments, roles, and employees. With a user-friendly interface, this application provides essential functionalities for handling workforce data.
 
 ## Table of Contents 
 - [User Story](#user-story)
@@ -39,13 +39,20 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 
 ## Installation
-Required: Node / Inquirer / MYSQL2
+To install and run this project, follow these steps:
+1. Clone the repository to your local machine.
+2. Navigate to the project's root directory.
+3. Run the following command to install the required dependencies: 'npm i'
+4. Set up your MySQL database by running the provided `schema.sql` and `seeds.sql` scripts.
 
 ## Usage 
 This project is intended for education purposes only.
 
 ## Features
-EDIT THIS SECTION
+- Utilizes JavaScript and MySQL for database management.
+- Employs Inquirer for a user-friendly command-line interface.
+- Enhances user experience with Figlet, a Node.js library for ASCII art text.
+- Utilizes cli-table3, a Node.js library, for generating neatly formatted tables in the CLI.
 
 ## Contributing
 No others have contributed to this repository. 
