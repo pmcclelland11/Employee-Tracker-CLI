@@ -1,8 +1,9 @@
 const mysql = require("mysql2");
-const figlet = require("figlet");
 const menu = require("./lib/menu");
+// Using the 'figlet' Node.js library to create a custom banner using ASCII art text
+const figlet = require("figlet");
 
-// Create a MySQL connection
+// DB Connection Settings
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
@@ -10,18 +11,18 @@ const db = mysql.createConnection({
   database: "employee_tracker_db",
 });
 
-// Establish the connection
+// Establish the database connection
 db.connect((err) => {
+  // Throwing an error message if unsuccessful
   if (err) {
     console.error("Error connecting to the database:", err);
     return;
   }
-  console.log("Connected to the database.");
-
   
-  figlet(` \n Emploee Tracker `, function (err, data) {
+  // Printing the welcome banner upon application launch
+  figlet(` \n Employee Tracker Application`, function (err, data) {
     if (err) {
-      console.log("Something went wrong... Try something else.");
+      console.log("Something went wrong...");
       console.dir(err);
       return;
     }
