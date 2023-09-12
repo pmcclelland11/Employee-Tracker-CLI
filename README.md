@@ -67,4 +67,4 @@ N/A
 Patrick McClelland, UC Berkeley Bootcamp Student
 
 ## Video Walkthrough
-ADD LINK HERE
+https://youtu.be/asd2g8yn3NA
